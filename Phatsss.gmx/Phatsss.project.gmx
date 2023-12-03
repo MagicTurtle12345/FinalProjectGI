@@ -15,10 +15,19 @@
     <background>background\BG_1_6</background>
     <background>background\BG_1_7</background>
     <background>background\background7</background>
+    <background>background\BG_2_1</background>
+    <background>background\BG_2_2</background>
+    <background>background\BG_2_3</background>
+    <background>background\BG_3_1</background>
+    <background>background\BG_3_2</background>
+    <background>background\BG_3_3</background>
   </backgrounds>
   <paths name="paths"/>
+  <timelines name="timelines"/>
   <rooms name="rooms">
-    <room>rooms\R_Main</room>
+    <room>rooms\R_Stage_1</room>
+    <room>rooms\R_Stage_2</room>
+    <room>rooms\R_Stage_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
