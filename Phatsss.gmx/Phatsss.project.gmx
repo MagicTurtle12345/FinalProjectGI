@@ -5,7 +5,35 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Human">
+      <sprite>sprites\Spr_Idle</sprite>
+      <sprite>sprites\Spr_Run</sprite>
+      <sprite>sprites\Spr_Attack</sprite>
+      <sprite>sprites\Spr_Die</sprite>
+      <sprite>sprites\Spr_Jump</sprite>
+      <sprites name="Enemy 2">
+        <sprite>sprites\Spr_Snowman_Attack</sprite>
+        <sprite>sprites\Spr_Snowman_Idle</sprite>
+        <sprite>sprites\Spr_Snowman_Run</sprite>
+        <sprite>sprites\Spr_Snowman_Die</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Enemy 1">
+      <sprite>sprites\Spr_Ice_Attack</sprite>
+      <sprite>sprites\Spr_Ice_Run</sprite>
+      <sprite>sprites\Spr_Ice_Idle</sprite>
+      <sprite>sprites\Spr_Ice_Die</sprite>
+    </sprites>
+    <sprites name="Others">
+      <sprite>sprites\Spr_Ground</sprite>
+      <sprite>sprites\Spr_DealDmg</sprite>
+      <sprite>sprites\Spr_Slope_1</sprite>
+      <sprite>sprites\Spr_Slope_4</sprite>
+      <sprite>sprites\Spr_Slope_2</sprite>
+      <sprite>sprites\Spr_Slope_3</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background">
     <background>background\BG_1_1</background>
     <background>background\BG_1_2</background>
@@ -14,16 +42,32 @@
     <background>background\BG_1_5</background>
     <background>background\BG_1_6</background>
     <background>background\BG_1_7</background>
-    <background>background\background7</background>
+    <background>background\Tile</background>
     <background>background\BG_2_1</background>
     <background>background\BG_2_2</background>
     <background>background\BG_2_3</background>
-    <background>background\BG_3_1</background>
-    <background>background\BG_3_2</background>
-    <background>background\BG_3_3</background>
+    <background>background\BG_2_4</background>
+    <background>background\BG_2_5</background>
   </backgrounds>
   <paths name="paths"/>
-  <timelines name="timelines"/>
+  <scripts name="scripts">
+    <script>scripts\Scr_Idle.gml</script>
+    <script>scripts\Scr_Attack.gml</script>
+    <script>scripts\Scr_Input.gml</script>
+    <script>scripts\Scr_Jump.gml</script>
+    <script>scripts\Scr_Run.gml</script>
+  </scripts>
+  <objects name="objects">
+    <objects name="Main">
+      <object>objects\Obj_Human</object>
+    </objects>
+    <objects name="Others">
+      <object>objects\Obj_Ground</object>
+      <object>objects\Obj_DealDmg</object>
+      <object>objects\Obj_Slope_2</object>
+      <object>objects\Obj_Wall</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
     <room>rooms\R_Stage_1</room>
     <room>rooms\R_Stage_2</room>
