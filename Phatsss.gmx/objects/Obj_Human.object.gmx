@@ -100,6 +100,11 @@ if (place_meeting(x + moveX,y - 2,Obj_Ground)) {
     moveX = 0
 }
 
+if (place_meeting(x, y + 1, Obj_Slope_2)) {
+    slope_angle = Obj_Slope_2.angle; // Assume angle is a pre-defined variable in obj_slope
+    moveY -= lengthdir_y(1, slope_angle); // Adjusts the player's y-position based on the slope's angle
+}
+
 
 // APPLY MOVEMENT
 x += moveX
