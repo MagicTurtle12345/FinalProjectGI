@@ -81,39 +81,53 @@ switch (state) {
         break;
 }
 
-//PHYSICS
-if (moveY &lt; 10) {
-    moveY = min(moveY + grav,9);
+// Get movement input
+var move = pressD - pressA // move will be -1, 0, or 1
+moveX = spd * move;
+
+// PHYSICS
+// Apply gravity if not on a slope or ground
+if (!place_meeting(x, y + 1, Obj_Ground) &amp;&amp; !place_meeting(x, y + 1, Obj_Slope_2)) {
+    moveY += grav; // Apply gravity
+    if (moveY &gt; 9) moveY = 9; // Terminal velocity
 }
-//COLLISION
-if (place_meeting(x ,y + moveY ,Obj_Ground)) {
-    while (not place_meeting(x, y + sign(moveY), Obj_Ground)) {
-        y += sign(moveY);
-        jumpCounter = 0;
+
+// COLLISION
+// Ground collision
+if (place_meeting(x, y + moveY, Obj_Ground)) {
+    while (!place_meeting(x, y + sign(moveY), Obj_Ground)) {
+        y += sign(moveY); // Adjust y position until not colliding
     }
-    moveY = 0
+    moveY = 0;
+    jumpCounter = 0; // Reset jump counter when on the ground
 }
-if (place_meeting(x + moveX,y - 2,Obj_Ground)) {
-    while (not place_meeting(x + sign(moveX), y - 2, Obj_Ground)) {
-        x += sign(moveX);
+
+// Slope collision
+var on_slope = false;
+if (place_meeting(x + moveX, y, Obj_Slope_2)) {
+    on_slope = true;
+    moveY = -moveX; // Move up the slope
+}
+
+// Apply horizontal movement
+x += moveX;
+
+// Apply vertical movement and correct for slope collision
+if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Slope_2))) {
+    y += moveY;
+} else if (on_slope) {
+    // Correct the vertical position if the player is embedded in the slope
+    while (place_meeting(x, y, Obj_Slope_2)) {
+        y -= 1; // Move the player up until they are no longer colliding with the slope
     }
-    moveX = 0
 }
-
-if (place_meeting(x, y + 1, Obj_Slope_2)) {
-    slope_angle = Obj_Slope_2.angle; // Assume angle is a pre-defined variable in obj_slope
-    moveY -= lengthdir_y(1, slope_angle); // Adjusts the player's y-position based on the slope's angle
-}
-
-
-// APPLY MOVEMENT
-x += moveX
-y += moveY
 
 // SPRITE CONTROLLER
-if (pressA + pressD != 0) {
-    image_xscale = sign(pressD - pressA)
+// Update sprite direction based on input
+if (move != 0) {
+    image_xscale = sign(move);
 }
+
 </string>
           </argument>
         </arguments>
