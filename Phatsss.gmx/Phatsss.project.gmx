@@ -51,11 +51,13 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\Scr_Idle.gml</script>
-    <script>scripts\Scr_Attack.gml</script>
     <script>scripts\Scr_Input.gml</script>
-    <script>scripts\Scr_Jump.gml</script>
-    <script>scripts\Scr_Run.gml</script>
+    <scripts name="Human">
+      <script>scripts\Scr_Run.gml</script>
+      <script>scripts\Scr_Jump.gml</script>
+      <script>scripts\Scr_Idle.gml</script>
+      <script>scripts\Scr_Attack.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Main">
