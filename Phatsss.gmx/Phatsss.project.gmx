@@ -58,10 +58,15 @@
       <script>scripts\Scr_Idle.gml</script>
       <script>scripts\Scr_Attack.gml</script>
     </scripts>
+    <scripts name="Enemy">
+      <script>scripts\Scr_Ice_Attack.gml</script>
+      <script>scripts\Scr_Ice_Run.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Main">
       <object>objects\Obj_Human</object>
+      <object>objects\Obj_Enemy_Ice</object>
     </objects>
     <objects name="Others">
       <object>objects\Obj_Ground</object>
