@@ -12,18 +12,29 @@
       <sprite>sprites\Spr_Attack</sprite>
       <sprite>sprites\Spr_Die</sprite>
       <sprite>sprites\Spr_Jump</sprite>
-      <sprites name="Enemy 2">
-        <sprite>sprites\Spr_Snowman_Attack</sprite>
-        <sprite>sprites\Spr_Snowman_Idle</sprite>
-        <sprite>sprites\Spr_Snowman_Run</sprite>
-        <sprite>sprites\Spr_Snowman_Die</sprite>
-      </sprites>
     </sprites>
     <sprites name="Enemy 1">
       <sprite>sprites\Spr_Ice_Attack</sprite>
       <sprite>sprites\Spr_Ice_Run</sprite>
       <sprite>sprites\Spr_Ice_Idle</sprite>
       <sprite>sprites\Spr_Ice_Die</sprite>
+    </sprites>
+    <sprites name="Enemy 2">
+      <sprite>sprites\Spr_Snowman_Attack</sprite>
+      <sprite>sprites\Spr_Snowman_Idle</sprite>
+      <sprite>sprites\Spr_Snowman_Run</sprite>
+      <sprite>sprites\Spr_Snowman_Die</sprite>
+    </sprites>
+    <sprites name="Enemy 3">
+      <sprite>sprites\Spr_Deer_Idle</sprite>
+      <sprite>sprites\Spr_Deer_Attack</sprite>
+      <sprite>sprites\Spr_Deer_Run</sprite>
+    </sprites>
+    <sprites name="Enemy 4">
+      <sprite>sprites\Spr_Bear_Idle</sprite>
+      <sprite>sprites\Spr_Bear_Attack</sprite>
+      <sprite>sprites\Spr_Bear_Run</sprite>
+      <sprite>sprites\Spr_Bear_Die</sprite>
     </sprites>
     <sprites name="Others">
       <sprite>sprites\Spr_Ground</sprite>
@@ -48,6 +59,12 @@
     <background>background\BG_2_3</background>
     <background>background\BG_2_4</background>
     <background>background\BG_2_5</background>
+    <background>background\BG_2_6</background>
+    <background>background\BG_3_1</background>
+    <background>background\BG_3_2</background>
+    <background>background\BG_3_3</background>
+    <background>background\BG_3_4</background>
+    <background>background\BG_3_5</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -76,9 +93,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\R_Stage_1</room>
-    <room>rooms\R_Stage_2</room>
     <room>rooms\R_Stage_3</room>
+    <room>rooms\R_Stage_2</room>
+    <room>rooms\R_Stage_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
