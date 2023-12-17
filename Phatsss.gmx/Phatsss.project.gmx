@@ -43,6 +43,12 @@
       <sprite>sprites\Spr_Slope_4</sprite>
       <sprite>sprites\Spr_Slope_2</sprite>
       <sprite>sprites\Spr_Slope_3</sprite>
+      <sprite>sprites\Spr_Igloo_Left</sprite>
+      <sprite>sprites\Spr_Igloo_Right</sprite>
+      <sprite>sprites\Spr_Monster_Wall</sprite>
+      <sprite>sprites\Spr_Flag</sprite>
+      <sprite>sprites\Spr_Coin</sprite>
+      <sprite>sprites\Spr_Key</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -89,13 +95,20 @@
       <object>objects\Obj_Ground</object>
       <object>objects\Obj_DealDmg</object>
       <object>objects\Obj_Slope_2</object>
+      <object>objects\Obj_Slope_1</object>
       <object>objects\Obj_Wall</object>
+      <object>objects\Obj_Monster_Wall</object>
+      <object>objects\Obj_Slope_3</object>
+      <object>objects\Obj_Slope_4</object>
+      <object>objects\Obj_Flag</object>
+      <object>objects\Obj_Coin</object>
+      <object>objects\Obj_Igloo_Right</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\R_Stage_1</room>
     <room>rooms\R_Stage_3</room>
     <room>rooms\R_Stage_2</room>
-    <room>rooms\R_Stage_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

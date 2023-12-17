@@ -87,7 +87,7 @@ moveX = spd * move;
 
 // PHYSICS
 // Apply gravity if not on a slope or ground
-if (!place_meeting(x, y + 1, Obj_Ground) &amp;&amp; !place_meeting(x, y + 1, Obj_Slope_2)) {
+if (!place_meeting(x, y + 1, Obj_Ground) &amp;&amp; !place_meeting(x, y + 1, Obj_Wall)) {
     moveY += grav; // Apply gravity
     if (moveY &gt; 9) moveY = 9; // Terminal velocity
 }
@@ -104,7 +104,7 @@ if (place_meeting(x, y + moveY, Obj_Ground)) {
 
 // Slope collision
 var on_slope = false;
-if (place_meeting(x + moveX, y, Obj_Slope_2)) {
+if (place_meeting(x + moveX, y, Obj_Wall)) {
     on_slope = true;
     moveY = -moveX; // Move up the slope
 }
@@ -113,11 +113,11 @@ if (place_meeting(x + moveX, y, Obj_Slope_2)) {
 x += moveX;
 
 // Apply vertical movement and correct for slope collision
-if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Slope_2))) {
+if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Wall))) {
     y += moveY;
 } else if (on_slope) {
     // Correct the vertical position if the player is embedded in the slope
-    while (place_meeting(x, y, Obj_Slope_2)) {
+    while (place_meeting(x, y, Obj_Wall)) {
         y -= 1; // Move the player up until they are no longer colliding with the slope
     }
 }
