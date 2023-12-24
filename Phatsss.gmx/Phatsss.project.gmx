@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Sou_Slash</sound>
+    <sound>sound\Sou_Hit</sound>
+    <sound>sound\Sou_BG</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Human">
       <sprite>sprites\Spr_Idle</sprite>
@@ -49,6 +53,7 @@
       <sprite>sprites\Spr_Flag</sprite>
       <sprite>sprites\Spr_Coin</sprite>
       <sprite>sprites\Spr_Key</sprite>
+      <sprite>sprites\Spr_Play</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -90,6 +95,9 @@
     <objects name="Main">
       <object>objects\Obj_Human</object>
       <object>objects\Obj_Enemy_Ice</object>
+      <object>objects\Obj_Deer</object>
+      <object>objects\Obj_Snowman</object>
+      <object>objects\Obj_Bear</object>
     </objects>
     <objects name="Others">
       <object>objects\Obj_Ground</object>
@@ -103,12 +111,15 @@
       <object>objects\Obj_Flag</object>
       <object>objects\Obj_Coin</object>
       <object>objects\Obj_Igloo_Right</object>
+      <object>objects\Obj_Igloo_Left</object>
+      <object>objects\Obj_Play</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\R_Stage_1</room>
     <room>rooms\R_Stage_3</room>
     <room>rooms\R_Stage_2</room>
+    <room>rooms\R_Menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
