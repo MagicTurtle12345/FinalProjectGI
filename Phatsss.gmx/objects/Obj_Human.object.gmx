@@ -127,7 +127,7 @@ if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Wall))) {
 if (move != 0) {
     image_xscale = sign(move);
 }
-
+image_speed = 2/3;
 
 </string>
           </argument>
