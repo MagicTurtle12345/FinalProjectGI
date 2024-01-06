@@ -87,7 +87,17 @@ attackCounter = 0;
           <argument>
             <kind>1</kind>
             <string>///MOVE
-move_towards_point(Obj_Human.x,Obj_Human.y,spd);
+switch (state) {
+    case iceStates.idle:
+        Scr_Ice_Idle();
+        break;
+    case iceStates.run:
+        Scr_Ice_Run();
+        break;
+    case iceStates.attack:
+        Scr_Ice_Attack();
+        break;
+}
 
 // PHYSICS
 // Apply gravity if not on a slope or ground
@@ -103,7 +113,6 @@ if (place_meeting(x, y + moveY, Obj_Ground)) {
         y += sign(moveY); // Adjust y position until not colliding
     }
     moveY = 0;
-    jumpCounter = 0; // Reset jump counter when on the ground
 }
 
 // Slope collision

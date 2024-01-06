@@ -43,6 +43,7 @@
     <sprites name="Others">
       <sprite>sprites\Spr_Ground</sprite>
       <sprite>sprites\Spr_DealDmg</sprite>
+      <sprite>sprites\Spr_Ice_DealDmg</sprite>
       <sprite>sprites\Spr_Slope_1</sprite>
       <sprite>sprites\Spr_Slope_4</sprite>
       <sprite>sprites\Spr_Slope_2</sprite>
@@ -89,6 +90,7 @@
     <scripts name="Enemy">
       <script>scripts\Scr_Ice_Attack.gml</script>
       <script>scripts\Scr_Ice_Run.gml</script>
+      <script>scripts\Scr_Ice_Idle.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -102,6 +104,7 @@
     <objects name="Others">
       <object>objects\Obj_Ground</object>
       <object>objects\Obj_DealDmg</object>
+      <object>objects\Obj_Ice_DealDmg</object>
       <object>objects\Obj_Slope_2</object>
       <object>objects\Obj_Slope_1</object>
       <object>objects\Obj_Wall</object>

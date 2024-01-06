@@ -1,13 +1,15 @@
-var dist = 100;
+sprite_index = Spr_Ice_Attack;
+image_speed = 1;
 
-var distance_to_object(Obj_Human);
-
-if (distance_to_object(Obj_Human) < dist)
-{
-
-    move_towards_point(Obj_Human.x, Obj_Human.y, 4);
-}
-else
-{
-    speed = 0;
+attackCounter += 1;
+moveX = 0
+if (attackCounter == 3) {
+    if (image_xscale > 0) {
+        instance_create(x + 7, y -30, Obj_Ice_DealDmg);
+    }
+    if (image_xscale < 0) {
+        instance_create(x -35, y -30, Obj_Ice_DealDmg);
+    }
+    attackCounter = 0;
+    state = iceStates.idle;
 }
