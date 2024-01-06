@@ -17,28 +17,33 @@
       <sprite>sprites\Spr_Die</sprite>
       <sprite>sprites\Spr_Jump</sprite>
     </sprites>
-    <sprites name="Enemy 1">
+    <sprites name="Ice">
       <sprite>sprites\Spr_Ice_Attack</sprite>
       <sprite>sprites\Spr_Ice_Run</sprite>
       <sprite>sprites\Spr_Ice_Idle</sprite>
-      <sprite>sprites\Spr_Ice_Die</sprite>
     </sprites>
-    <sprites name="Enemy 2">
+    <sprites name="Snowman">
       <sprite>sprites\Spr_Snowman_Attack</sprite>
       <sprite>sprites\Spr_Snowman_Idle</sprite>
       <sprite>sprites\Spr_Snowman_Run</sprite>
-      <sprite>sprites\Spr_Snowman_Die</sprite>
     </sprites>
-    <sprites name="Enemy 3">
+    <sprites name="Deer">
       <sprite>sprites\Spr_Deer_Idle</sprite>
       <sprite>sprites\Spr_Deer_Attack</sprite>
       <sprite>sprites\Spr_Deer_Run</sprite>
     </sprites>
-    <sprites name="Enemy 4">
+    <sprites name="Bear">
       <sprite>sprites\Spr_Bear_Idle</sprite>
-      <sprite>sprites\Spr_Bear_Attack</sprite>
       <sprite>sprites\Spr_Bear_Run</sprite>
+      <sprite>sprites\Spr_Bear_Attack</sprite>
+      <sprite>sprites\Spr_Bear_Shoot</sprite>
       <sprite>sprites\Spr_Bear_Die</sprite>
+    </sprites>
+    <sprites name="Spider">
+      <sprite>sprites\Spr_Spider_Shoot</sprite>
+      <sprite>sprites\Spr_Spider_Attack</sprite>
+      <sprite>sprites\Spr_Spider_Idle</sprite>
+      <sprite>sprites\Spr_Spider_Run</sprite>
     </sprites>
     <sprites name="Others">
       <sprite>sprites\Spr_Ground</sprite>
@@ -55,6 +60,10 @@
       <sprite>sprites\Spr_Coin</sprite>
       <sprite>sprites\Spr_Key</sprite>
       <sprite>sprites\Spr_Play</sprite>
+      <sprite>sprites\Spr_Spider_DealDmg</sprite>
+      <sprite>sprites\Spr_enemyCount_1</sprite>
+      <sprite>sprites\Spr_enemyCount_2</sprite>
+      <sprite>sprites\Spr_enemyCount_3</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -87,10 +96,20 @@
       <script>scripts\Scr_Idle.gml</script>
       <script>scripts\Scr_Attack.gml</script>
     </scripts>
-    <scripts name="Enemy">
+    <scripts name="Ice">
       <script>scripts\Scr_Ice_Attack.gml</script>
       <script>scripts\Scr_Ice_Run.gml</script>
       <script>scripts\Scr_Ice_Idle.gml</script>
+    </scripts>
+    <scripts name="Deer">
+      <script>scripts\Scr_Deer_Idle.gml</script>
+      <script>scripts\Scr_Deer_Run.gml</script>
+      <script>scripts\Scr_Deer_Attack.gml</script>
+    </scripts>
+    <scripts name="Snowman">
+      <script>scripts\Scr_Snowman_Attack.gml</script>
+      <script>scripts\Scr_Snowman_Run.gml</script>
+      <script>scripts\Scr_Snowman_Idle.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -116,6 +135,9 @@
       <object>objects\Obj_Igloo_Right</object>
       <object>objects\Obj_Igloo_Left</object>
       <object>objects\Obj_Play</object>
+      <object>objects\Obj_enemyCount_1</object>
+      <object>objects\Obj_enemyCount_2</object>
+      <object>objects\Obj_enemyCount_3</object>
     </objects>
   </objects>
   <rooms name="rooms">
