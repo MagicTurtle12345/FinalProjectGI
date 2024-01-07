@@ -1,5 +1,5 @@
 sprite_index = Spr_Snowman_Attack;
-image_speed = 1;
+image_speed = 2/3;
 
 attackCounter += 1;
 moveX = 0

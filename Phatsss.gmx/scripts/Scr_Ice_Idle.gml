@@ -1,5 +1,5 @@
 sprite_index = Spr_Ice_Idle
-if (distance_to_object(Obj_Human) < 200 and (y - Obj_Human.y < 2)) {
+if (distance_to_object(Obj_Human) < 200 and abs(y - Obj_Human.y < 2)) {
     state = iceStates.run
 }
 

@@ -59,11 +59,19 @@
       <sprite>sprites\Spr_Flag</sprite>
       <sprite>sprites\Spr_Coin</sprite>
       <sprite>sprites\Spr_Key</sprite>
-      <sprite>sprites\Spr_Play</sprite>
       <sprite>sprites\Spr_Spider_DealDmg</sprite>
       <sprite>sprites\Spr_enemyCount_1</sprite>
       <sprite>sprites\Spr_enemyCount_2</sprite>
       <sprite>sprites\Spr_enemyCount_3</sprite>
+      <sprite>sprites\Spr_Play</sprite>
+      <sprite>sprites\Spr_Exit</sprite>
+      <sprite>sprites\Spr_Menu</sprite>
+      <sprite>sprites\Spr_Replay</sprite>
+      <sprite>sprites\Spr_Tree1</sprite>
+      <sprite>sprites\Spr_Tree2</sprite>
+      <sprite>sprites\Spr_ChristmasTree</sprite>
+      <sprite>sprites\Spr_Bush1</sprite>
+      <sprite>sprites\Spr_Bush2</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -138,6 +146,11 @@
       <object>objects\Obj_enemyCount_1</object>
       <object>objects\Obj_enemyCount_2</object>
       <object>objects\Obj_enemyCount_3</object>
+      <object>objects\Obj_Tree1</object>
+      <object>objects\Obj_Tree2</object>
+      <object>objects\Obj_ChirstmasTree</object>
+      <object>objects\Obj_Bush1</object>
+      <object>objects\Obj_Bush2</object>
     </objects>
   </objects>
   <rooms name="rooms">

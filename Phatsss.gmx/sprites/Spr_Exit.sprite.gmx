@@ -20,6 +20,6 @@
   <width>166</width>
   <height>94</height>
   <frames>
-    <frame index="0">images\Spr_Play_0.png</frame>
+    <frame index="0">images\Spr_Exit_0.png</frame>
   </frames>
 </sprite>
