@@ -34,7 +34,7 @@
 
 state = spiderStates.idle;
 // ABILITIES
-spd = 5;
+spd = 2;
 grav = 1;
 moveX = 0;
 moveY = 0;
@@ -126,7 +126,7 @@ if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Wall))) {
 }
 
 // SPRITE CONTROLLER
-image_speed = 2/3;
+
 
 </string>
           </argument>

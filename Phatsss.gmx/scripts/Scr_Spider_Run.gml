@@ -8,7 +8,7 @@ if (x < Obj_Human.x) {
     moveX = -spd
 }
 
-if (distance_to_object(Obj_Human) < 25 and (y - Obj_Human.y < 2)) {
+if (distance_to_object(Obj_Human) < 25 and (y - Obj_Human.y < 12)) {
     state = spiderStates.attack
     moveX = 0
 }
