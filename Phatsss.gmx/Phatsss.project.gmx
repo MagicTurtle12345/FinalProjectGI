@@ -44,6 +44,7 @@
       <sprite>sprites\Spr_Spider_Attack</sprite>
       <sprite>sprites\Spr_Spider_Idle</sprite>
       <sprite>sprites\Spr_Spider_Run</sprite>
+      <sprite>sprites\Spr_Spider_Shoot_Thing</sprite>
     </sprites>
     <sprites name="Others">
       <sprite>sprites\Spr_Ground</sprite>
@@ -119,6 +120,12 @@
       <script>scripts\Scr_Snowman_Run.gml</script>
       <script>scripts\Scr_Snowman_Idle.gml</script>
     </scripts>
+    <scripts name="Spider">
+      <script>scripts\Scr_Spider_Idle.gml</script>
+      <script>scripts\Scr_Spider_Attack.gml</script>
+      <script>scripts\Scr_Spider_Run.gml</script>
+      <script>scripts\Scr_Spider_Shoot.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Main">
@@ -127,11 +134,14 @@
       <object>objects\Obj_Deer</object>
       <object>objects\Obj_Snowman</object>
       <object>objects\Obj_Bear</object>
+      <object>objects\Obj_Spider</object>
     </objects>
     <objects name="Others">
       <object>objects\Obj_Ground</object>
       <object>objects\Obj_DealDmg</object>
       <object>objects\Obj_Ice_DealDmg</object>
+      <object>objects\Obj_Spider_DealDmg</object>
+      <object>objects\Obj_Shoot</object>
       <object>objects\Obj_Slope_2</object>
       <object>objects\Obj_Slope_1</object>
       <object>objects\Obj_Wall</object>
