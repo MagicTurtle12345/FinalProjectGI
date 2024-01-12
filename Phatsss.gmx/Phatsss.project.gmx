@@ -73,8 +73,9 @@
       <sprite>sprites\Spr_ChristmasTree</sprite>
       <sprite>sprites\Spr_Bush1</sprite>
       <sprite>sprites\Spr_Bush2</sprite>
+      <sprite>sprites\Spr_GoToNextRoom</sprite>
+      <sprite>sprites\Spr_Snowball</sprite>
     </sprites>
-    <sprite>sprites\Spr_GoToNextRoom</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\BG_1_1</background>
@@ -163,6 +164,7 @@
       <object>objects\Obj_Bush1</object>
       <object>objects\Obj_Bush2</object>
       <object>objects\Obj_GoToNextRoom</object>
+      <object>objects\Obj_Snowball</object>
     </objects>
   </objects>
   <rooms name="rooms">
