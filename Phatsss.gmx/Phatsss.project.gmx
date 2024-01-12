@@ -51,6 +51,7 @@
       <sprite>sprites\Spr_DealDmg</sprite>
       <sprite>sprites\Spr_Ice_DealDmg</sprite>
       <sprite>sprites\Spr_Spider_DealDmg</sprite>
+      <sprite>sprites\Spr_Bear_DealDmg</sprite>
       <sprite>sprites\Spr_Slope_1</sprite>
       <sprite>sprites\Spr_Slope_4</sprite>
       <sprite>sprites\Spr_Slope_2</sprite>
@@ -128,6 +129,12 @@
       <script>scripts\Scr_Spider_Run.gml</script>
       <script>scripts\Scr_Spider_Shoot.gml</script>
     </scripts>
+    <scripts name="Bear">
+      <script>scripts\Scr_Bear_Idle.gml</script>
+      <script>scripts\Scr_Bear_Attack.gml</script>
+      <script>scripts\Scr_Bear_Run.gml</script>
+      <script>scripts\Scr_Bear_Shoot.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Main">
@@ -143,6 +150,7 @@
       <object>objects\Obj_DealDmg</object>
       <object>objects\Obj_Ice_DealDmg</object>
       <object>objects\Obj_Spider_DealDmg</object>
+      <object>objects\Obj_Bear_DealDmg</object>
       <object>objects\Obj_Shoot</object>
       <object>objects\Obj_Slope_2</object>
       <object>objects\Obj_Slope_1</object>

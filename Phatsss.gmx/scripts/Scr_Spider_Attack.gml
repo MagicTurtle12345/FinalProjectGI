@@ -11,5 +11,5 @@ if (attackCounter == 60) {
         instance_create(x -70, y -20, Obj_Spider_DealDmg);
     }
     attackCounter = 0;
-    state = iceStates.idle;
+    state = spiderStates.idle;
 }
