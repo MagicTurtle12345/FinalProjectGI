@@ -74,6 +74,7 @@
       <sprite>sprites\Spr_Bush1</sprite>
       <sprite>sprites\Spr_Bush2</sprite>
     </sprites>
+    <sprite>sprites\Spr_GoToNextRoom</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\BG_1_1</background>
@@ -161,11 +162,12 @@
       <object>objects\Obj_ChirstmasTree</object>
       <object>objects\Obj_Bush1</object>
       <object>objects\Obj_Bush2</object>
+      <object>objects\Obj_GoToNextRoom</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\R_Stage_2</room>
     <room>rooms\R_Stage_1</room>
+    <room>rooms\R_Stage_2</room>
     <room>rooms\R_Stage_3</room>
     <room>rooms\R_Menu</room>
   </rooms>

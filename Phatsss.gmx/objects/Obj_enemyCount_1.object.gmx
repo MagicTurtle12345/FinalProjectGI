@@ -2,7 +2,7 @@
 <object>
   <spriteName>Spr_enemyCount_1</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>if (die1 == 5) {
-    
+    instance_create (1344, 128 ,Obj_GoToNextRoom)
 }
 </string>
           </argument>

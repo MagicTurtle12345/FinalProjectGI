@@ -8,7 +8,7 @@ if (attackCounter == 30) {
         instance_create(x + 7, y -30, Obj_Ice_DealDmg);
     }
     if (image_xscale < 0) {
-        instance_create(x -35, y -30, Obj_Ice_DealDmg);
+        instance_create(x -70, y -30, Obj_Ice_DealDmg);
     }
     attackCounter = 0;
     state = snowmanStates.idle;

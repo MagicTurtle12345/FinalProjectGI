@@ -40,8 +40,8 @@ moveX = 0;
 moveY = 0;
 hp = 3;
 attackCounter = 0;
-hp = 150;
-hp_max = 150;
+hp = 25;
+hp_max = 25;
 </string>
           </argument>
         </arguments>
@@ -128,6 +128,43 @@ if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Wall))) {
 // SPRITE CONTROLLER
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Obj_DealDmg">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp = hp -5;
 </string>
           </argument>
         </arguments>

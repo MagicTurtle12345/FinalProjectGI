@@ -114,6 +114,27 @@
     <instance objName="Obj_Human" x="96" y="160" name="inst_735A80FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Deer" x="320" y="96" name="inst_D4805C75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Snowman" x="672" y="32" name="inst_572631A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="224" y="160" name="inst_83BE01C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="224" y="128" name="inst_4F13AA8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="224" y="96" name="inst_8ED4D94A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="224" y="64" name="inst_20DDF31D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="448" y="160" name="inst_89B47797" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="448" y="128" name="inst_1C7F9BA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="448" y="96" name="inst_15E7D481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="448" y="64" name="inst_2BE6D157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="448" y="32" name="inst_D302FB6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="736" y="96" name="inst_D9F82E83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="736" y="64" name="inst_40BE64F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="736" y="32" name="inst_C8FBD61D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="768" y="224" name="inst_FCAE03D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="768" y="192" name="inst_04D38F7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="768" y="160" name="inst_39A52501" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="768" y="128" name="inst_CEABD360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="1056" y="160" name="inst_91BD6344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="1056" y="128" name="inst_C3A12342" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="1056" y="96" name="inst_5E9CEA5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="1056" y="64" name="inst_6998A9EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_enemyCount_2" x="96" y="0" name="inst_43D35537" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tile" x="0" y="192" w="32" h="32" xo="32" yo="0" id="10000231" name="inst_6D94B164" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

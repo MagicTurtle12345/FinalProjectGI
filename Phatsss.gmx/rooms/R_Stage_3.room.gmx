@@ -133,6 +133,7 @@
     <instance objName="Obj_Ground" x="128" y="224" name="inst_F7E137EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Ground" x="128" y="256" name="inst_317F79BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Ground" x="128" y="288" name="inst_CC1CD083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_enemyCount_3" x="32" y="0" name="inst_5580CA1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tile" x="128" y="288" w="32" h="32" xo="64" yo="32" id="10000257" name="inst_5DF3236B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
