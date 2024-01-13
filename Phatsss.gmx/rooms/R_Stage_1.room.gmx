@@ -38,10 +38,10 @@
     <background visible="-1" foreground="0" name="BG_1_5" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="-1" foreground="0" name="BG_1_6" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="-1" foreground="0" name="BG_1_7" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="BG_2_6" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="3" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="Obj_Human" xview="0" yview="0" wview="400" hview="320" xport="0" yport="0" wport="400" hport="320" hborder="100" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="Obj_Human" xview="0" yview="0" wview="700" hview="321" xport="0" yport="0" wport="700" hport="321" hborder="350" vborder="160" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -107,7 +107,7 @@
     <instance objName="Obj_Ground" x="1408" y="192" name="inst_7C6C5456" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Ground" x="1440" y="192" name="inst_066FFEB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Ground" x="1472" y="192" name="inst_5E305F19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Human" x="160" y="128" name="inst_37730443" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Human" x="128" y="128" name="inst_37730443" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Ground" x="416" y="192" name="inst_BA3E0FD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Slope_2" x="448" y="192" name="inst_AA20F279" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Slope_2" x="480" y="224" name="inst_20F86688" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -203,11 +203,23 @@
     <instance objName="Obj_Enemy_Ice" x="320" y="160" name="inst_04FF1CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Enemy_Ice" x="640" y="96" name="inst_413A5A85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_Enemy_Ice" x="704" y="192" name="inst_7CEBB805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Enemy_Ice" x="1056" y="96" name="inst_444E4E36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Bush1" x="160" y="128" name="inst_902EA3D2" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Enemy_Ice" x="1120" y="160" name="inst_444E4E36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_enemyCount_1" x="128" y="0" name="inst_1CF2D3C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_GoToNextRoom" x="1344" y="128" name="inst_30F4A900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_Bear" x="384" y="96" name="inst_F0A1CC14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="928" y="256" name="inst_98E22DF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="512" y="224" name="inst_74C7F53D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Monster_Wall" x="512" y="256" name="inst_C116F5CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Deer" x="768" y="64" name="inst_F1AAEAC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Deer" x="832" y="224" name="inst_E0635469" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Healing" x="1216" y="128" name="inst_F72A7CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush1" x="192" y="144" name="inst_15663517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush2" x="416" y="176" name="inst_FC8989B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush2" x="768" y="112" name="inst_9D554692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush1" x="672" y="240" name="inst_B7EEB615" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush1" x="800" y="240" name="inst_2AEE4679" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush1" x="1056" y="176" name="inst_215FF70E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Flag" x="1312" y="144" name="inst_35B8F23B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Bush2" x="448" y="80" name="inst_3C4BFFE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_Hp" x="160" y="0" name="inst_C47FCD6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tile" x="1312" y="192" w="32" h="32" xo="0" yo="0" id="10000001" name="inst_3430E474" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

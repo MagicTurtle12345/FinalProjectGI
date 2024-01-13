@@ -58,7 +58,7 @@
 
 state = iceStates.idle;
 // ABILITIES
-spd = 3;
+spd = 2.5;
 grav = 1;
 moveX = 0;
 moveY = 0;

@@ -48,8 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (die3 == 15) {
-    
+            <string>if (die3 == 7) {
+    room_goto(R_Win)
 }
 </string>
           </argument>

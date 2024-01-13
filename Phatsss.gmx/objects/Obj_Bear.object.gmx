@@ -34,7 +34,7 @@
 
 state = bearStates.idle;
 // ABILITIES
-spd = 2;
+spd = 5;
 grav = 1;
 moveX = 0;
 moveY = 0;
@@ -42,6 +42,71 @@ hp = 3;
 attackCounter = 0;
 hp = 25;
 hp_max = 25;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>Obj_enemyCount_1</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>die1 = die1 + 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>Obj_enemyCount_2</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>die2 = die2 + 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>Obj_enemyCount_3</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>die3 = die3 + 1;
 </string>
           </argument>
         </arguments>
@@ -126,7 +191,9 @@ if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Wall))) {
 }
 
 // SPRITE CONTROLLER
-
+if (hp &lt;= 0) {
+    instance_destroy();
+}
 
 </string>
           </argument>
@@ -165,6 +232,30 @@ if (!on_slope || (on_slope &amp;&amp; !place_meeting(x, y + moveY, Obj_Wall))) {
           <argument>
             <kind>1</kind>
             <string>hp = hp -5;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+draw_healthbar(x-10, y-30, x+10, y - 35, hp/hp_max *100, c_black, c_red, c_lime, 0, true, true)
 </string>
           </argument>
         </arguments>

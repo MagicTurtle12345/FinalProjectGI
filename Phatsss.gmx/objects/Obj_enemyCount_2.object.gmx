@@ -48,8 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (die2 == 8) {
-    
+            <string>if (die2 == 7) {
+    instance_create(1536,96,Obj_GoToNextRoom);
 }
 </string>
           </argument>
