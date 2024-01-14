@@ -186,14 +186,14 @@
       <object>objects\Obj_Big_Healing</object>
       <object>objects\Obj_Exit</object>
       <object>objects\Obj_Play</object>
-      <object>objects\Obj_Hp</object>
       <object>objects\Obj_Replay</object>
       <object>objects\Obj_Menu</object>
       <object>objects\Obj_Title</object>
       <object>objects\Obj_You_Died</object>
+      <object>objects\Obj_You_Win</object>
+      <object>objects\Obj_Hp</object>
       <object>objects\Obj_Snowman1</object>
       <object>objects\Obj_Snowman2</object>
-      <object>objects\Obj_You_Win</object>
     </objects>
   </objects>
   <rooms name="rooms">
